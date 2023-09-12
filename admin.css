@@ -1,0 +1,119 @@
+/* -------------------------- */
+/* GENERAL STUFF              */
+/* -------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  color: turquoise;
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(54, 54, 54);
+}
+
+/* -------------------------- */
+/* HEADER                     */
+/* -------------------------- */
+
+header {
+  background-color: rgb(54, 54, 54);
+  padding: 10px 1%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid turquoise;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+.header-button {
+  padding: 10px 4%;
+  background-color: rgb(54, 54, 54);
+  border: 1px solid turquoise;
+  cursor: pointer;
+  text-decoration: none;
+  /* font-family: monospace; */
+}
+
+.header-button:hover {
+  background-color: turquoise;
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+.header-button:active {
+  background-color: rgb(61, 209, 194);
+}
+
+/* -------------------------- */
+/* MAIN CONTENT               */
+/* -------------------------- */
+
+.button-menu {
+  /* padding: 10px 1%; */
+  margin: 20px 1%;
+}
+
+.menu-button {
+  padding: 10px 4%;
+  background-color: rgb(54, 54, 54);
+  border: 1px solid turquoise;
+  cursor: pointer;
+  text-decoration: none;
+  /* font-family: monospace; */
+}
+
+.menu-button:hover {
+  background-color: turquoise;
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+.menu-button:active {
+  background-color: rgb(61, 209, 194);
+}
+
+.post {
+  display: flex;
+  margin: 10px 1%;
+  padding: 10px;
+  border: 1px solid turquoise;
+  align-items: center;
+}
+
+.post-delete-button {
+  padding: 5px 10px;
+  background-color: rgb(54, 54, 54);
+  border: 1px solid turquoise;
+  cursor: pointer;
+}
+
+.post-delete-button:hover {
+  background-color: turquoise;
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+.form-input-text {
+  background-color: rgb(54, 54, 54);
+  border: 1px solid turquoise;
+  /* margin-left: 10px; */
+}
+
+.submit-button {
+  background-color: rgb(54, 54, 54);
+  border: 1px solid turquoise;
+  padding: 1px 100%;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: turquoise;
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
