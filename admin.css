@@ -54,6 +54,10 @@ header {
 /* MAIN CONTENT               */
 /* -------------------------- */
 
+.main-content {
+  margin: 0 5%;
+}
+
 .button-menu {
   /* padding: 10px 1%; */
   margin: 20px 1%;
@@ -91,6 +95,7 @@ header {
   background-color: rgb(54, 54, 54);
   border: 1px solid turquoise;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .post-delete-button:hover {
@@ -116,4 +121,33 @@ header {
   background-color: turquoise;
   color: rgb(54, 54, 54);
   font-weight: bold;
+}
+
+.post-information {
+  margin-left: 5%;
+}
+
+.selected-date {
+  padding: 10px 4%;
+  background-color: rgb(54, 54, 54);
+  border: 1px solid turquoise;
+}
+
+.full-post {
+  margin: 10px 1%;
+  align-items: center;
+}
+
+.top-post {
+  padding: 1% 10px;
+  border: 1px solid turquoise;
+  align-items: center;
+}
+
+.bottom-post {
+  color: rgb(54, 54, 54);
+  background-color: turquoise;
+  border: 1px solid turquoise;
+  align-items: center;
+  padding-left: 1%;
 }
